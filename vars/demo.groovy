@@ -4,6 +4,6 @@ def call(String message, String person, boolean toggle) {
     echo "Hello ${person}"
     echo "Toggle: ${toggle}"
     def scriptContent = libraryResource 'demo'
-    writeFile file: demotext, text: scriptContent
-    sh 'cat demotext'
+    writeFile file: demo, text: scriptContent
+    sh 'cat demo'
 }
