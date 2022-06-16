@@ -12,5 +12,6 @@ class MPoint {
   def abc() {
     sh 'echo abcd'
   }
+  return this
 
 }
