@@ -1,7 +1,7 @@
 package org.foo
 
 // point in 3D space
-class Point {
+class MPoint {
   float x,y,z
   public Point (float xvalue) {
     x = xvalue;
