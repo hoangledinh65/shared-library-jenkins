@@ -3,7 +3,7 @@ def call(String message, String person, boolean toggle) {
     sh 'mvn --version'
     echo "Hello ${person}"
     echo "Toggle: ${toggle}"
-    def scriptContent = libraryResources"demo"
+    def scriptContent = libraryResource 'demo'
     writeFile file: demotext, text: scriptContent
     sh 'cat demotext'
 }
