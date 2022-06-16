@@ -1,3 +1,3 @@
-def info(message) {
-    echo "INFO: ${message}"
+def call(message) {
+    echo "this is message from my library: ${message}"
 }
