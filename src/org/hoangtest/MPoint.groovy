@@ -8,7 +8,9 @@ class MPoint {
     y = 2.4f;
     z = 3.0f;
   }
-  public String echo() {
-    return x + " " + y + " " + z;
+
+  def abc() {
+    sh 'echo abcd'
   }
+
 }
